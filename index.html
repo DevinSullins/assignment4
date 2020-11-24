@@ -3,6 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="node_modules/normalize.css/normalize.css">
+    <link rel="stylesheet" href="styles.css">
     <title>Devin's Coding Journey</title>
 </head>
 <body>
@@ -10,33 +12,33 @@
         <h1>My Coding Journey</h1>
         <h3>Devin Sullins</h3>
     </header>
-    <main>
-        <section>
+    <main class="main">
+        <section id="story">
             <h2>The Beginning</h2>
             <img src="https://p19cdn4static.sharpschool.com/UserFiles/Servers/Server_750728/Templates/logon.png" alt="West Platte School Seal">
             <p>My first foray into &quot;programming&quot; was in high school. I was chosen to participate in an engineering camp at Missouri S&T in Rolla, MO. There, I learned a lot about engineering and other STEM fields, one of which being programming.
             During the programming course, we were taught to program a small circuit board with lights and a rudimentary speaker to play different games. We also programmed a simple tank game in the computer
             Looking back, it was all very fascinating and I still can't see why I decided not to pursue any of the things I learned on that trip.</p>
         </section>
-        <section>
+        <section id="story">
             <h2>Fast-Forward a Few Years...</h2>
             <img src="./images/caity.jpg" alt="My fiance, Caity">
             <p>I went to college, met the girl that I would later ask to marry me, barely squeezed out a film degree, and packed up to move to Chicago.
             I struggled to get my feet under me in Chicago. I was working a terrible job for a temp agency when I got my second real taste of programming.
             The job I was on was a year long. During that time, I was able to convince my boss that they needed me on the video team, and I started working to help them make videos for the company. We also hosted those videos on the company site and I got to learn to write HTML while troubleshooting that.</p>
         </section>
-        <section>
+        <section id="story">
             <h2>My Current Job</h2>
             <img src="https://i.pinimg.com/originals/8c/d2/08/8cd208c8324866ad86a5b8f1624a36ff.png" alt="Jim dies of boredom in The Office">
             <p>Right now, I'm working for a company I really like doing work I am less-than-thrilled about. This is an improvement from every other job I've held, all of which have been jobs I hated for companies I disliked. This new remote job afforded my fiance and I the stability to get out of Chicago and away from the cold. I was also able to learn more HTML and the flexibility of remote work allowed me to take the LC101 course. </p>
         </section>
-        <section>
+        <section id="story">
             <h2>The Future?</h2>
             <img src="https://wallpaperaccess.com/full/755557.jpg" alt="Mad Max Fury Road, or a possible future">
             <p>It's very difficult to plan for the future right now. It's currently November 24th, 2020 and we've been in the midst of a pandemic for almost a year now. In America, we just finished a very contentious election season and a summer and fall filled with protests and rioting, both due to the rise of oppression and bigotry (and the normalization of those things) in our country.</p>
             <p>All that said, this year has been one of the best years of my life. I got engaged. I got serious about programming and making a change in my life. I had a great year in spite of all of the chaos and tragedy in our world. I'm hoping to continue that trend in 2021 but, like this year, I'll be grateful just to make it to the end.</p>
         </section>
-        <section>
+        <section id="goals">
             <h2>Goals</h2>
             <p>Provided the world is still turning by the end of next year, here are some of my goals:</p>
             <ul>
@@ -47,18 +49,20 @@
             </ul>
         </section>
     </main>
-        <section>
+        <section id="adviceForm">
             <p>Have some suggestions for what I should do next?</p>
             <form>
                 <label for="name">Name:</label>
                 <input type="text" id="name" name="name">
-                <label for="Advice">Advice:</label>
+                <br><br>
+                <label for="advice">Advice:</label>
                 <!-- <input type="text" id="advice" name="advice"> -->
-                <textarea name="advice" id="Advice" cols="30" rows="10">Give me some advice!</textarea>
+                <textarea name="advice" id="advice" cols="30" rows="10">Give me some advice!</textarea>
+                <br><br>
                 <input type="submit" value="Submit">
             </form>
         </section>
-    <footer>
+    <footer class="main">
         <p>For more information, or to hire me, email me at devinsullins@gmail.com</p>
         <p>&copy; Devin Sullins 2020</p>
     </footer>

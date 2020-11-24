@@ -1,0 +1,62 @@
+header {
+    background-color: lightblue;
+    padding: 10px;
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    
+}
+h1{
+    font-size: 300%;
+}
+h3 {
+    font-style: italic;
+    font-size: 150%;
+}
+
+.main {
+    padding: 100;
+    text-align: center;
+    align-items: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background: whitesmoke;
+}
+
+
+img {
+    width: 50%;
+    border-radius: 1%;
+    margin: 0 auto;
+    border: 3px solid lightblue;
+    ;
+}
+
+
+#story {
+    padding: 10px 10%; 
+    background: whitesmoke   
+}
+
+#goals {
+    padding: 0px 10%;
+    text-align: left;
+    align-items: left;
+    margin: 0 auto;
+}
+
+#adviceForm {
+    padding: 0px 10%;
+    text-align: left;
+    align-items: left;
+    margin: 0 auto;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+#name {
+    padding: 10px;
+    width: 80%;
+    margin: 0px 0px 0px 22px;
+}
+#advice {
+    padding: 10px;
+    width: 80%;
+    margin: 0px 0px 0px 22px;
+}
