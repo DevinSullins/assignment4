@@ -37,10 +37,11 @@ img {
 }
 
 #goals {
-    padding: 0px 10%;
+    padding: 10px 10%;
     text-align: left;
     align-items: left;
     margin: 0 auto;
+    background: rgb(205, 232, 241);
 }
 
 #adviceForm {
