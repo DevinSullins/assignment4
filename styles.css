@@ -1,5 +1,6 @@
 header {
     background-color: lightblue;
+    background-blend-mode: lighten;
     padding: 10px;
     text-align: center;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -18,22 +19,40 @@ h3 {
     text-align: center;
     align-items: center;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    background: whitesmoke;
+    background-image: url(./images/science.png);
+}
+
+body {
+    background-image: url(./images/science.png);
 }
 
 
 img {
-    width: 50%;
+    width: 60%;
     border-radius: 1%;
     margin: 0 auto;
     border: 3px solid lightblue;
-    ;
 }
 
 
 #story {
-    padding: 10px 10%; 
-    background: whitesmoke   
+    padding: 10px 10%;   
+    color: black;
+}
+p {
+    background-color: lightblue;
+    border-radius: 10px;
+    padding: 0px 30px;
+}
+ul {
+    background-color: lightblue;
+    border-radius: 20px;
+    padding: 0px 30px;
+}
+h2 {
+    background-color: lightblue;
+    border-radius: 20px;
+    
 }
 
 #goals {
@@ -41,7 +60,7 @@ img {
     text-align: left;
     align-items: left;
     margin: 0 auto;
-    background: rgb(205, 232, 241);
+    
 }
 
 #adviceForm {
@@ -60,4 +79,8 @@ img {
     padding: 10px;
     width: 80%;
     margin: 0px 0px 0px 22px;
+}
+
+#wpLogo{
+    border-radius: 100%;
 }
